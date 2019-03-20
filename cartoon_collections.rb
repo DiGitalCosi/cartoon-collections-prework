@@ -12,10 +12,8 @@ def long_planeteer_calls(short_planeteer_calls)
   short_planeteer_calls.any? { |x| x.length > 4 }
 end
 
-def find_the_cheese(cheddar_cheese)
-  cheeses = (gouda, cheddar, camembert)
-
-  cheddar_cheese.find do |x|
-    cheeses.include?(x)
+def find_the_cheese(snacks)
+  snacks.find do |x|
+    snacks.include?(x)
   end
 end
