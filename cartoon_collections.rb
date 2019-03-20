@@ -12,7 +12,7 @@ def long_planeteer_calls(short_planeteer_calls)
   short_planeteer_calls.any? { |x| x.length > 4 }
 end
 
-def find_the_cheese(snacks)
+def find_the_cheese(cheddar_cheese)
   snacks.find do |x|
     snacks.include?(x)
   end
